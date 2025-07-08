@@ -57,7 +57,7 @@ const App = () => {
                   <Card.Text dangerouslySetInnerHTML={{ __html: question.question }} />
                   <Card.Subtitle className="mt-2">Category: {question.category}</Card.Subtitle>
                   <Button
-                    variant="info"
+                    variant="primary"
                     className="mt-3"
                     onClick={() => toggleAnswer(index)}
                   >
